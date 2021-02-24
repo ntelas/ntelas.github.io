@@ -6,23 +6,38 @@
     <title>Marios Pentelas</title>
 	<link rel="icon" type="image/png" href="assets/img/fav.png"/>
 	<meta name="viewport", content="width=device-width, initial-scale=0.52, user-scalable=no">
-	<meta name="google-site-verification" content="_4mnp00EK08JTNLYvk8JNcfSCRZmUOyDnqyaNrVvrPE" />
-	<script type="text/javascript" src="//raw.githubusercontent.com/shantanubala/haptics.js/master/haptics.js"></script>
+	<script src="js/translator.min.js"></script>
+	<script src="js/translations.js"></script>
   </head>
   <body>
 <div class="box">
   <img src="assets/img/profile.png" alt="" class="box-img">
-  <h1>
-Marios Pentelas</h1>
-<h5>
-Web Design & Software Developement</h5>
-<p>
-I am student at an Institute of Vocational Training in Thessaloniki, Greece. I am currently studying Web development(PHP), OPENGL, Blender 3D, MySQL, C, C++ and JAVA.</p>
+  <div class="input-controls">
+			<div>
+				<select id="globalTranslate"
+					class="select">
+					<div>
+						<option hidden value="">Language</option>
+						<option value="en">English</option>
+						<option value="gr">Ελληνικά</option>
+				</select>
+			</div>
+		</div>
+		<div
+			eo-translator="inform"
+			eo-translator-html="true"
+		</div>
+  </div>
 <ul>
 <li><a href="https://www.linkedin.com/in/mariospentelas/" target="_blank"><img src="assets/img/in.png" alt="LinkedIn" class="ico-img"></a></li>
 <li><a href="https://www.instagram.com/marios_pentelas/" target="_blank"><img src="assets/img/ig.png" alt="Instagram" class="ico-img"></a></li>
 </ul>
-<ul><a href="home.html" onclick="navigator.vibrate(40)"><img id="resume" src="assets/img/enter.png" alt="Enter" class="ico-img1"</a>
+<ul><div
+			eo-translator="button"
+			eo-translator-html="true"
+		</div>
+		
+</div>
 </div>
 </a>
 <div class="footer">
