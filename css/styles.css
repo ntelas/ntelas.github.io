@@ -6077,7 +6077,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color:  #b82500!important;
+  background: rgb(167,50,0);
+  background: linear-gradient(90deg, rgba(167,50,0,1) 0%, rgba(134,23,0,1) 100%)!important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10024,6 +10025,7 @@ p.lead {
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
+  
 }
 
 @media (min-width: 992px) {
