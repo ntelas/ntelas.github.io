@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
       'intro': '<h1>Marios Pentelas</h1><h5>Web Design & Software Developement</h5>\
 	  <p>I am student at an Institute of Vocational Training in Thessaloniki, Greece. \
 	  I am currently studying Web development(PHP), OPENGL, Blender 3D, MySQL, C, C++ and JAVA.</p>',
-    'resume': '<a href="home.html" onclick="navigator.vibrate(40)"><img id="resume" src="assets/img/enter.png" alt="Enter" class="ico-img1"</a>',
+    'resume': '<a href="home" onclick="navigator.vibrate(40)"><img id="resume" src="assets/img/enter.png" alt="Enter" class="ico-img1"</a>',
 	'aboutme': 'TEST</a>',
 	'name': 'MARIOS</a>',
 	'lastname': 'PENTELAS</a>',
@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
       'intro': '<h1>Μάριος Πεντέλας</h1><h5>Σχεδιασμός ιστοσελίδων & Κατασκευή Εφαρμογών</h5>\
 	  <p>Είμαι μαθητής σε Ινστιτούτο Επαγγελματικής Κατάστησης στην Θεσσαλονίκη.\
 	  Αυτή την στιγμή σπουδάζω Κατασκευή ιστοσελιδών(PHP), OPENGL, Blender 3D, MySQL, C, C++ και JAVA.</p>',
-    'resume': '<a href="homegr.html" onclick="navigator.vibrate(40)"><img id="resume" src="assets/img/entergr.png" alt="Enter" class="ico-img1"</a>',
+    'resume': '<a href="homegr" onclick="navigator.vibrate(40)"><img id="resume" src="assets/img/entergr.png" alt="Enter" class="ico-img1"</a>',
 	'aboutme': 'τέστ</a>',
   },
   };
