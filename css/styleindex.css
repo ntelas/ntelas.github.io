@@ -2,10 +2,6 @@
   font-family:"Nunito";
   src: url("../fonts/Nunito-SemiBold.ttf") format("truetype");
 }
-@font-face {
-  font-family:"Arial";
-  src: url("../fonts/ArialUnicodeMS.ttf") format("truetype");
-}
 html { 
   background: url(../assets/img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
