@@ -4,7 +4,7 @@
 }
 html { 
 background: rgb(255,218,2);
-background: linear-gradient(90deg, rgba(255,218,2,1) 0%, rgba(255,46,0,1) 52%, rgba(129,22,0,1) 100%);
+background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, rgba(129,22,0,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
