@@ -21,10 +21,11 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   width: 400px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
-  padding-bottom: 25px;
+  padding-top: 3vh;
+  padding-bottom: 1.5vh;
   text-align: center;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 2vh;
   color: white;
   font-family: Helvetica, arial, Sans-Serif;
 }
@@ -36,13 +37,14 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   }
 .box-img{
   border-radius: 50%;
-  width: 200px;
+  width: 20vh;
+  max-width: 200px;
   border-style: solid;
   border-width: 2px;
 }
 @media only screen and (max-width: 768px) {
 	.box-img{
-		width: 55%;
+		width: 30vw;
 		margin-top: -15px;
 	}
   }
@@ -57,10 +59,10 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.select{
-		height: auto;
+		height: 4vh;
 		background-color: rgb(120,20,0);	
-		width: 40%;
-		font-size: 4vw; 
+		width: auto!important;
+		font-size: 2.5vh; 
 		margin-top: 3%;
 	}
   }
@@ -70,8 +72,8 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.ico-img{
-		width: 48px;
-		height: 48px;
+		width: auto!important;
+		height: 11vw;
 	}
   }
   .ico-img1{
@@ -79,7 +81,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.ico-img1{
-		width: 70%;
+		width: 28vh;
 		margin-top: -10px;
 	}
   }
@@ -91,10 +93,15 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box h1{
-	font-size:27px;
+	font-size:4.1vh;
 		margin-top: 3%;
 	}
   }
+@media only screen and (min-height: 1080px) {
+	.box h1{
+		font-size: 27px;
+	}
+}
 .box h5{
   font-size: 20px;
   letter-spacing: 3px;
@@ -102,16 +109,22 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box h5{
-		font-size: 18px;
+		font-size: 3vh;
 		margin-top: 3%;
 	}
   }
 .box p{
   text-align: justify;
+  font-size: 2vh;
+}
+@media only screen and (min-height: 1080px) {
+	.box p{
+		font-size: 25px;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.box p{
-		font-size: 18px;
+		font-size: 4.3vw;
 		text-align: justify;
 		margin-top: -5px;
 	}
