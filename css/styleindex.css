@@ -76,11 +76,12 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 	}
   }
   .ico-img1{
-  width: 165px;
+  width: 180px;
 }
 @media only screen and (max-width: 768px) {
 	.ico-img1{
 		width: 28vh;
+		max-width: 70%;
 		margin-top: -10px;
 	}
   }
@@ -116,9 +117,9 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   text-align: justify;
   font-size: 2.3vh;
 }
-@media only screen and (min-height: 1080px) {
+@media only screen and (min-height: 850px) {
 	.box p{
-		font-size: 25px;
+		font-size: 19px;
 	}
 }
 @media only screen and (max-width: 768px) {
