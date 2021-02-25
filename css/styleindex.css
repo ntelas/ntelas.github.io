@@ -14,7 +14,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media (max-width: 768px) {
   html {
-    background: rgb(175,97,0);
+    background: rgb(175,32,0);
   }
 }
 .box{
@@ -48,7 +48,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   }
 .select {
 	color: #FFFFFF;
-	background-color: rgb(155,95,0);
+	background-color: rgb(155,20,0);
 	border: 1.99px solid #FFFFFF;
 	height: 27px;
 	margin-top: 25px;
@@ -58,6 +58,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 @media only screen and (max-width: 768px) {
 	.select{
 		height: auto;
+		background-color: rgb(120,20,0);	
 		width: 40%;
 		font-size: 5vw; 
 		margin-top: 3%;
@@ -116,7 +117,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 	}
   }
 ul{
-  margin: 0;
+  margin-top: -15px;
   padding: 0;
 }
 .box li{
