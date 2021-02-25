@@ -21,7 +21,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   width: 400px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
-  padding-top: 3vh;
+  padding-top: 1.5vh;
   padding-bottom: 1.5vh;
   text-align: center;
   margin: auto;
@@ -45,7 +45,6 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 @media only screen and (max-width: 768px) {
 	.box-img{
 		width: 30vw;
-		margin-top: -15px;
 	}
   }
 .select {
