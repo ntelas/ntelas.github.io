@@ -14,8 +14,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media (max-width: 768px) {
   html {
-    background: rgb(235,0,0);
-	background: linear-gradient(90deg, rgba(235,0,0,1) 0%, rgba(208,0,0,1) 100%);
+    background: rgb(175,97,0);
   }
 }
 .box{
@@ -49,7 +48,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   }
 .select {
 	color: #FFFFFF;
-	background-color: #9c1700;
+	background-color: rgb(155,95,0);
 	border: 1.99px solid #FFFFFF;
 	height: 27px;
 	margin-top: 25px;
