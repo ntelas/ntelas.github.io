@@ -114,7 +114,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   }
 .box p{
   text-align: justify;
-  font-size: 2vh;
+  font-size: 2.3vh;
 }
 @media only screen and (min-height: 1080px) {
 	.box p{
