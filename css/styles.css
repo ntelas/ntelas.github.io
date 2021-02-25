@@ -10126,3 +10126,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+span.hdn { unicode-bidi:bidi-override; direction:rtl }
+span.hdn.cntnt:before { content:"moc.liam" }
+span.hdn.cntnt:after { content:".saletn" }
