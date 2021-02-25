@@ -2,12 +2,14 @@
   font-family:"Nunito";
   src: url("../fonts/Nunito-SemiBold.ttf") format("truetype");
 }
+body {
+  touch-action: manipulation;
+}
 html { 
 background: rgb(255,218,2);
 background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, rgba(129,22,0,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 @media (max-width: 768px) {
@@ -29,7 +31,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box{
-		width: 83%;
+		width: 72vw;
 		margin-top: 5%;
 	}
   }
@@ -41,7 +43,8 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box-img{
-		width: 50%;
+		width: 55%;
+		margin-top: -15px;
 	}
   }
 .select {
@@ -58,6 +61,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 		height: auto;
 		width: 40%;
 		font-size: 5vw; 
+		margin-top: 3%;
 	}
   }
 .ico-img{
@@ -66,8 +70,8 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.ico-img{
-		width: 95px;
-		height: 95px;
+		width: 48px;
+		height: 48px;
 	}
   }
   .ico-img1{
@@ -76,6 +80,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 @media only screen and (max-width: 768px) {
 	.ico-img1{
 		width: 70%;
+		margin-top: -10px;
 	}
   }
 }
@@ -86,7 +91,8 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box h1{
-	font-size:55px;
+	font-size:27px;
+		margin-top: 3%;
 	}
   }
 .box h5{
@@ -96,7 +102,8 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box h5{
-		font-size: 38px;
+		font-size: 18px;
+		margin-top: 3%;
 	}
   }
 .box p{
@@ -104,8 +111,9 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 }
 @media only screen and (max-width: 768px) {
 	.box p{
-		font-size: 30px;
+		font-size: 18px;
 		text-align: left;
+		margin-top: 3%;
 	}
   }
 ul{
