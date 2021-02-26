@@ -6,23 +6,24 @@ body {
   touch-action: manipulation;
 }
 html { 
-background: rgb(255,218,2);
-background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, rgba(129,22,0,1) 100%);
+background: rgb(0,95,209);
+background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
 }
 @media (max-width: 768px) {
   html {
-    background: rgb(175,32,0);
+    background: rgba(0,71,193,1) 48%;
   }
 }
 .box{
   width: 400px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgb(255 255 255 / 52%);
   padding: 40px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
+  border-radius: 30px;
   text-align: center;
   margin: auto;
   margin-top: 2vh;
@@ -49,7 +50,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
   }
 .select {
 	color: #FFFFFF;
-	background-color: rgb(155,20,0);
+	background-color: rgb(133 167 225);
 	border: 1.99px solid #FFFFFF;
 	height: 27px;
 	margin-top: 25px;
@@ -59,7 +60,7 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 @media only screen and (max-width: 768px) {
 	.select{
 		height: 4vh;
-		background-color: rgb(120,20,0);	
+		background-color: rgb(133 167 225);	
 		width: auto!important;
 		font-size: 2.5vh; 
 		margin-top: 3%;
@@ -103,13 +104,16 @@ background: linear-gradient(90deg, rgba(255,188,0,1) 0%, rgba(255,46,0,1) 52%, r
 	}
 }
 .box h5{
-  font-size: 20px;
+  font-size: 18px;
+  padding: 1%;
+  border-radius: 20px;
+  background: rgba(0,71,193,1) 48%;
   letter-spacing: 3px;
   font-weight: 100;
 }
 @media only screen and (max-width: 768px) {
 	.box h5{
-		font-size: 2.6vh;
+		font-size: 2.5vh;
 		margin-top: 3%;
 	}
   }

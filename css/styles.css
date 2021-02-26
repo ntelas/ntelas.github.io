@@ -67,7 +67,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background: rgb(0,95,209);
+  background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -366,7 +367,7 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -1px;
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #c2d7f3;
 }
 
 h1, .h1 {
@@ -426,7 +427,6 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 small,
@@ -6077,9 +6077,14 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: rgb(167,50,0);
-  background: linear-gradient(90deg, rgba(167,50,0,1) 0%, rgba(134,23,0,1) 100%)!important;
+  background: rgb(133 167 225);
+  border-radius: 0px 20px 20px 0px;
 }
+@media only screen and (max-width: 990px) {
+	.bg-primary {
+		border-radius: 0px 0px 20px 20px;;
+	}
+  }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -9780,7 +9785,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color:  #b82500!important;
+  color:  #ffffff!important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9984,7 +9989,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: white;
 }
 
 @media (min-width: 992px) {
@@ -10111,6 +10116,9 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  padding: 3%;
+  border-radius: 20px;
+  background: rgb(255 255 255 / 52%);
 }
 
 @media (min-width: 768px) {
@@ -10125,6 +10133,12 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.ico-img{
+  width: 55x;
+  height: 55px;
+  padding-right: 2%;
 }
 
 span.hdn { unicode-bidi:bidi-override; direction:rtl }
