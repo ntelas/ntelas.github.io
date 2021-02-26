@@ -150,6 +150,14 @@ ul{
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
+.resume{
+  color: white; 
+  background: #0047c1; 
+  padding: 2%; 
+  border: 0px; 
+  border-radius: 12px; 
+  font-size: 4vh;
+}
 .footer {
   position: relative;
   background-color: transparent;
