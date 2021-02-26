@@ -156,8 +156,13 @@ ul{
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
-  font-size: 4vh;
+  font-size: 33px;
 }
+@media only screen and (max-width: 768px) {
+	.resume{
+		font-size: 4vh;
+	}
+  }
 .footer {
   position: relative;
   background-color: transparent;
