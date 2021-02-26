@@ -37,6 +37,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 	}
   }
 .box-img{
+  margin: 1vh;
   border-radius: 50%;
   width: 20vh;
   max-width: 200px;
@@ -53,7 +54,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 	background-color: rgb(133 167 225);
 	border: 1.99px solid #FFFFFF;
 	height: 27px;
-	margin-top: 25px;
+	margin: 1vh;
 	font-size: 17px;
 	
 }
@@ -69,21 +70,23 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 .ico-img{
   width: 55x;
   height: 55px;
+  margin-top: 2.5vh;
 }
 @media only screen and (max-width: 768px) {
 	.ico-img{
 		width: auto!important;
-		height: 11vw;
+		height: 13vw;
 	}
   }
   .ico-img1{
   width: 180px;
+  margin-top: 0.5vh;
 }
 @media only screen and (max-width: 768px) {
 	.ico-img1{
 		width: 28vh;
 		max-width: 70%;
-		margin-top: -10px;
+		margin-top: 0.5vh;
 	}
   }
 }
@@ -110,11 +113,12 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
   background: rgba(0,71,193,1) 48%;
   letter-spacing: 3px;
   font-weight: 100;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 @media only screen and (max-width: 768px) {
 	.box h5{
 		font-size: 2.5vh;
-		margin-top: 3%;
 	}
   }
 .box p{
@@ -130,7 +134,6 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 	.box p{
 		font-size: 4.3vw;
 		text-align: justify;
-		margin-top: -5px;
 	}
   }
 ul{
