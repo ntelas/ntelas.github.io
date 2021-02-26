@@ -20,7 +20,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 .box{
   width: 400px;
   background: rgb(255 255 255 / 52%);
-  padding: 40px;
+  padding: 30px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
   border-radius: 30px;
@@ -32,8 +32,8 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 }
 @media only screen and (max-width: 768px) {
 	.box{
-		width: 72vw;
-		margin-top: 5%;
+		width: 78vw;
+		margin-top: 3%;
 	}
   }
 .box-img{
@@ -131,7 +131,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 }
 @media only screen and (max-width: 768px) {
 	.box p{
-		font-size: 4vw;
+		font-size: 2.4vh;
 		text-align: justify;
 	}
   }
