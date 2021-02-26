@@ -101,7 +101,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 		margin-top: 3%;
 	}
   }
-@media only screen and (min-height: 1080px) {
+@media only screen and (min-height: 1000px) {
 	.box h1{
 		font-size: 27px;
 	}
@@ -124,7 +124,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 .box p{
   text-align: justify;
 }
-@media only screen and (min-height: 850px) {
+@media only screen and (min-height: 1000px) {
 	.box p{
 		font-size: 19px;
 	}
@@ -135,6 +135,11 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 		text-align: justify;
 	}
   }
+@media only screen and (max-height: 1000px) {
+	.box p{
+		font-size: 2.3vh;
+	}
+}
 ul{
   margin-top: -15px;
   padding: 0;
@@ -156,7 +161,7 @@ ul{
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
-  font-size: 33px;
+  font-size: 23px;
 }
 @media only screen and (max-width: 768px) {
 	.resume{
