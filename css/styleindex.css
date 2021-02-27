@@ -1,25 +1,20 @@
-@font-face {
-  font-family:"Nunito";
-  src: url("../fonts/Nunito-SemiBold.ttf") format("truetype");
-}
 body {
   touch-action: manipulation;
 }
 html { 
-background: rgb(0,95,209);
-background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+    background: url(../assets/img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   html {
     background: rgba(0,71,193,1) 48%;
   }
-}
+}*/
 .box{
   width: 400px;
-  background: rgb(255 255 255 / 52%);
+  background: rgb(125 132 146 / 88%);
   padding: 30px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
@@ -51,8 +46,9 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
   }
 .select {
 	color: #FFFFFF;
-	background-color: rgb(133 167 225);
+	background-color: rgb(109 122 139);
 	border: 1.99px solid #FFFFFF;
+    border-radius: 13px;
 	height: 27px;
 	margin: 1vh;
 	font-size: 17px;
@@ -61,7 +57,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 @media only screen and (max-width: 768px) {
 	.select{
 		height: 4vh;
-		background-color: rgb(133 167 225);	
+		/*background-color: rgb(68 86 110);*/
 		width: auto!important;
 		font-size: 2.5vh; 
 		margin-top: 3%;
@@ -77,7 +73,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 		width: 6vh;
 	}
   }
-  .ico-img1{
+.ico-img1{
   width: 180px;
   margin-top: 0.5vh;
 }
@@ -96,8 +92,8 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
 }
 @media only screen and (max-width: 768px) {
 	.box h1{
-	font-size:4.1vh;
-		margin-top: 3%;
+        font-size:4.1vh;
+        margin-top: 3%;
 	}
   }
 @media only screen and (min-height: 1000px) {
@@ -109,7 +105,7 @@ background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
   font-size: 18px;
   padding: 1%;
   border-radius: 20px;
-  background: rgba(0,71,193,1) 48%;
+  background: rgb(0 38 65);
   letter-spacing: 3px;
   font-weight: 100;
   margin-top: 3vh;
@@ -151,7 +147,7 @@ ul{
 }
 .resume{
   color: white; 
-  background: #0047c1; 
+  background: rgb(0 38 65); 
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
@@ -171,8 +167,12 @@ ul{
   position: relative;
   background-color: transparent;
   color: white;
+  width: fit-content;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #002641c4;
   text-align: center;
-  font-family: 'Nunito', Fallback, sans-serif;
+  font-family: sans-serif;
 }
 @media only screen and (max-width: 768px) {
 	.footer{
