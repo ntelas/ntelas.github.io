@@ -2,10 +2,12 @@ body {
   touch-action: manipulation;
 }
 html { 
-    background: url(../assets/img/bg.jpeg)  no-repeat center center fixed;
+    /*background: url(../assets/img/bg.jpeg)  no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+    -moz-background-size: cover;*/
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(200,200,200,1) 100%);
 }
 /*@media (max-width: 768px) {
   html {
@@ -14,7 +16,7 @@ html {
 }*/
 .box{
   width: 400px;
-  background: rgb(125 132 146 / 88%);
+  background: #6c757d;
   padding: 30px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
@@ -46,7 +48,7 @@ html {
   }
 .select {
 	color: #FFFFFF;
-	background-color: rgb(109 122 139);
+	background-color: rgb(108 117 125);
 	border: 1.99px solid #FFFFFF;
     border-radius: 13px;
 	height: 27px;
@@ -104,8 +106,9 @@ html {
 .box h5{
   font-size: 18px;
   padding: 1%;
+  color: #3c3c3c;
   border-radius: 20px;
-  background: rgb(0 38 65);
+  background: rgb(219 219 219);
   letter-spacing: 3px;
   font-weight: 100;
   margin-top: 3vh;
@@ -146,8 +149,8 @@ ul{
   transition: all ease-in-out 250ms;
 }
 .resume{
-  color: white; 
-  background: rgb(0 38 65); 
+  color: #3c3c3c; 
+  background: rgb(219 219 219); 
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
@@ -166,11 +169,11 @@ ul{
 .footer {
   position: relative;
   background-color: transparent;
-  color: white;
+  color: #3c3c3c;
   width: fit-content;
   margin: auto;
   border-radius: 10px;
-  background-color: #002641c4;
+  font-size: 2vh;
   text-align: center;
   font-family: sans-serif;
 }

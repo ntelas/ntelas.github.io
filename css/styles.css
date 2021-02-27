@@ -67,8 +67,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background: rgb(0,95,209);
-  background: linear-gradient(90deg, rgba(0,95,209,1) 0%, rgba(0,45,176,1) 100%);
+  background: rgb(238,238,238);
+  background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(200,200,200,1) 100%);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: -1px;
   font-weight: 700;
   line-height: 1.2;
-  color: #c2d7f3;
+  color: #ffffff;
 }
 
 h1, .h1 {
@@ -6077,7 +6077,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: rgb(133 167 225);
+  background: #6c757d;
   border-radius: 0px 20px 20px 0px;
 }
 @media only screen and (max-width: 990px) {
@@ -10097,6 +10097,7 @@ p.lead {
 .footer {
   position: relative;
   width: 100%;
+  color: #3e3e3e;
   background-color: transparent;
   text-align: center;
 }
@@ -10118,7 +10119,7 @@ section.resume-section .resume-section-content {
   width: 100%;
   padding: 3%;
   border-radius: 20px;
-  background: rgb(255 255 255 / 52%);
+  background: #6c757d;
 }
 
 @media (min-width: 768px) {
