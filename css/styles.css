@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 }
 /*!
 * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
@@ -49,7 +50,7 @@
 }
 
 html {
-  font-family: Helvetica, arial, Sans-Serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -61,11 +62,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Helvetica, arial, Sans-Serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #dedede;
   text-align: left;
   background: rgb(238,238,238);
   background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(200,200,200,1) 100%);
@@ -182,7 +183,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Helvetica, arial, Sans-Serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1em;
 }
 
@@ -362,11 +363,10 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: Helvetica, arial, Sans-Serif;
-  letter-spacing: -1px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #ffffff;
+  color: #fbfbfb;
 }
 
 h1, .h1 {
@@ -4284,7 +4284,9 @@ input[type=button].btn-block {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(204 204 204);
+  font-size: 18px;
+  font-family: helvetica;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
@@ -5566,7 +5568,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: Helvetica, arial, Sans-Serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5668,7 +5670,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: Helvetica, arial, Sans-Serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6078,6 +6080,7 @@ a.close.disabled {
 .bg-primary {
   background: #6c757d;
   border-radius: 0px 20px 20px 0px;
+  box-shadow: 7px 7px 20px #0000005c;
 }
 @media only screen and (max-width: 990px) {
 	.bg-primary {
@@ -9988,7 +9991,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: white;
+  color: #fbfbfb;
 }
 
 @media (min-width: 992px) {
@@ -10016,16 +10019,13 @@ p.lead {
 }
 
 .subheading {
-  font-family: Helvetica, arial, Sans-Serif;
-  text-transform: uppercase;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.3rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -10118,6 +10118,7 @@ section.resume-section .resume-section-content {
   width: 100%;
   padding: 3%;
   border-radius: 20px;
+  box-shadow: 7px 7px 20px #0000005c;
   background: #6c757d;
 }
 
@@ -10134,8 +10135,16 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
-.ico-img{
+.cutout {
+	color: #6c757d!important;
+	box-shadow: inset 5px 5px 20px 0px #c1c1c1;
+	background: rgb(219 219 219) 48%;
+	width: fit-content;
+	border-radius: 14px;
+	padding: 1%;
+	margin: -1%
+}
+.ico-img {
   width: 55x;
   height: 55px;
   padding-right: 2%;

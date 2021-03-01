@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 body {
   touch-action: manipulation;
 }
@@ -17,20 +18,19 @@ html {
 .box{
   width: 400px;
   background: #6c757d;
+  box-shadow: 7px 7px 20px #0000005c;
   padding: 30px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
   border-radius: 30px;
   text-align: center;
   margin: auto;
-  margin-top: 2vh;
-  color: white;
-  font-family: Helvetica, arial, Sans-Serif;
+  color: #eaeaea;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 @media only screen and (max-width: 768px) {
 	.box{
 		width: 78vw;
-		margin-top: 3%;
 	}
   }
 .box-img{
@@ -49,7 +49,7 @@ html {
 	height: 27px;
 	margin: 1vh;
 	font-size: 17px;
-	
+	outline: none;
 }
 @media only screen and (max-width: 768px) {
 	.select{
@@ -99,12 +99,13 @@ html {
 	}
 }
 .box h5{
-  font-size: 18px;
+  font-size: 21px;
   padding: 1%;
   color: #3c3c3c;
   border-radius: 20px;
   background: rgb(219 219 219);
-  letter-spacing: 3px;
+  box-shadow: inset 5px 5px 20px 0px #c1c1c1;
+  letter-spacing: 1px;
   font-weight: 100;
   margin-top: 3vh;
   margin-bottom: 3vh;
@@ -124,7 +125,7 @@ html {
 }
 @media only screen and (max-width: 768px) {
 	.box p{
-		font-size: 2.4vh;
+		font-size: 2.1vh;
 		text-align: justify;
 	}
   }
@@ -143,37 +144,52 @@ ul{
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
-.resume{
+.resume {
   color: #3c3c3c; 
-  background: rgb(219 219 219); 
+  background: rgb(219 219 219);
+  box-shadow: inset 5px 5px 20px 0px #c1c1c1;
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
   font-size: 3vh;
+  outline: none;
+}
+.resume:hover {
+	background: #bfbfbf;
+}
+.resume:active {
+	background: #a5a5a5;
 }
 @media only screen and (max-width: 768px) {
 	.resume{
-		font-size: 4vh;
-	}
-  }
-@media only screen and (max-height: 450px) {
-	.resume{
-		font-size: 30px;
+		font-size: 3.5vh;
 	}
   }
 .footer {
   position: relative;
   background-color: transparent;
-  color: #3c3c3c;
+  color: #777777;
   width: fit-content;
   margin: auto;
   border-radius: 10px;
-  font-size: 2vh;
+  font-size: 16px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Helvetica";
 }
 @media only screen and (max-width: 768px) {
 	.footer{
 		font-size: 12px;
 	}
   }
+.centered {
+  position: fixed;
+  top: 49.6%;;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottom {
+  position: fixed;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

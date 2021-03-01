@@ -13,13 +13,12 @@
 		<script src="js/translations.js"></script>
 	</head>
 	<body>
-		<div class="box">
+		<div class="box centered">
             <img src="assets/img/profile.png" alt="A picture of me" class="box-img">
             <div class="input-controls" >
                 <select id="globalTranslate" class="select">
-                    <option hidden value="">Language</option>
-                    <option value="en">English</option>
                     <option value="gr">Ελληνικά</option>
+                    <option value="en">English</option>
                 </select>
                 <span eo-translator="intro" eo-translator-html="true"> </span>
             </div>
@@ -31,8 +30,8 @@
             </ul>
             <span  onclick="navigator.vibrate(40)"; eo-translator="resume"; eo-translator-html="true"> </span>
         </div>
-		<div class="footer">
-			<p>Created by me - 2021</p>
+		<div class="footer bottom">
+			Created by me - 2021
 		</div>
 		<script>function homegr() {window.location.assign("homegr.html")}</script>
 		<script>function home() {window.location.assign("home.html")}</script>
