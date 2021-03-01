@@ -93,7 +93,7 @@ html {
 @media only screen and (max-width: 768px) {
 	.box h1{
         font-size:4.1vh;
-        margin-top: 3%;
+        margin-top: 3vh;
 	}
   }
 @media only screen and (min-height: 1000px) {
