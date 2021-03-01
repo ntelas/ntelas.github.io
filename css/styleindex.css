@@ -10,7 +10,7 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;*/
 }
-/*@media (max-width: 999px) {
+/*@media (max-width: 768px) {
   html {
     background: rgba(0,71,193,1) 48%;
   }
@@ -28,18 +28,22 @@ html {
   color: #eaeaea;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.box{
 		width: 78vw;
+		margin-top: 3vh;
 	}
   }
 .box-img{
-  margin: 1vh;
   border-radius: 50%;
-  width: 20vh;
-  max-width: 200px;
+  width: 130px;
   border-style: solid;
   border-width: 2px;
+}
+@media only screen and (max-width: 768px) {
+	.box-img{
+		width: 17vh;
+	}
 }
 .select {
 	color: #FFFFFF;
@@ -47,25 +51,24 @@ html {
 	border: 1.99px solid #FFFFFF;
     border-radius: 13px;
 	height: 27px;
-	margin: 1vh;
+	margin-top: 3vh;
 	font-size: 17px;
 	outline: none;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.select{
 		height: 4vh;
 		/*background-color: rgb(68 86 110);*/
 		width: auto!important;
 		font-size: 2.5vh; 
-		margin-top: 3%;
+		margin-top: 3vh;
 	}
   }
 .ico-img{
-  width: 5vh;
+  width: 35px;
   margin-top: 2.5vh;
-  min-width: 35px;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.ico-img{
 		width: 6vh;
 	}
@@ -74,7 +77,7 @@ html {
   width: 180px;
   margin-top: 0.5vh;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.ico-img1{
 		width: 28vh;
 		max-width: 70%;
@@ -87,7 +90,7 @@ html {
   letter-spacing: 4px;
   font-weight: 100;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.box h1{
         font-size:4.1vh;
         margin-top: 3%;
@@ -110,7 +113,7 @@ html {
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.box h5{
 		font-size: 2.5vh;
 	}
@@ -123,7 +126,7 @@ html {
 		font-size: 19px;
 	}
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.box p{
 		font-size: 2.1vh;
 		text-align: justify;
@@ -151,7 +154,7 @@ ul{
   padding: 2%; 
   border: 0px; 
   border-radius: 12px; 
-  font-size: 2.5vh;
+  font-size: 18px;
   outline: none;
 }
 .resume:hover {
@@ -160,7 +163,7 @@ ul{
 .resume:active {
 	background: #a5a5a5;
 }
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 768px) {
 	.resume{
 		font-size: 3.5vh;
 	}
@@ -176,20 +179,37 @@ ul{
   text-align: center;
   font-family: "Helvetica";
 }
-@media only screen and (max-width: 999px) {
-	.footer{
+@media only screen and (max-width: 768px) {
+	.footer {
 		font-size: 12px;
 	}
   }
 .centered {
   position: fixed;
-  top: 49.6%;;
+  top: 49.6%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 960px) {
+	.centered {
+		transform: unset!important;
+		position:unset!important;
+		top: unset!important;
+		left: unset!important;
+	}
 }
 .bottom {
   position: fixed;
   top: 98%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 960px) {
+	.bottom {
+		position: unset!important;
+		top: unset!important;
+		left: unset!important;
+		transform: unset!important;
+		margin-top: 3vh;
+	}
 }
