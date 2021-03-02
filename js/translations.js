@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
     'resume': '<input class="resume" type="button" value="MY RESUME" onclick="home()">',
   },
     'gr': {
-      'intro': '<h1>Μάριος Πεντέλας</h1><h5>Φοιτητής Τεχνικός Εφαρμογών Πληροφορικής Δ\' Εξάμηνο</h1>\
+      'intro': '<h1>Μάριος Πεντέλας</h1><h5>Φοιτητής Τεχνικός Εφαρμογών Πληροφορικής Δ Εξάμηνο</h1>\
 	  <p>Είμαι μαθητής σε Ινστιτούτο Επαγγελματικής Κατάρτησης στην Θεσσαλονίκη.\
 	  Αυτή την στιγμή σπουδάζω Κατασκευή ιστοσελιδών (PHP), OPENGL, Blender 3D, MySQL, C, C++ και JAVA.</p>',
     'resume': '<input class="resume br" type="button" value="ΤΟ ΒΙΟΓΡΑΦΙΚΟ ΜΟΥ" onclick="homegr()">',
