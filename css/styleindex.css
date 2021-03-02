@@ -214,3 +214,11 @@ ul{
 		margin-top: 3vh;
 	}
 }
+.br {
+	
+}
+@media only screen and (max-width: 360px) {
+	.br {
+		font-size: 7.5vw;
+	}
+}
