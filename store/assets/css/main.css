@@ -2369,6 +2369,12 @@ input, select, textarea {
 			display: block;
 			box-shadow: 4px 4px 20px 0px #0009;
 		}
+		
+		.perimage img {
+			border-radius: 15px;
+			display: block;
+			box-shadow: 4px 4px 20px 0px #0009;
+		}
 
 		.image.left, .image.right {
 			max-width: 40%;
@@ -2998,8 +3004,17 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 		}
+		
+		.spotlight .perimage {
+			display: inline-block;
+			margin-left: 4em;
+		}
 
 			.spotlight .image img {
+				display: block;
+			}
+			
+			.spotlight .perimage img {
 				display: block;
 			}
 
@@ -3041,6 +3056,15 @@ input, select, textarea {
 					margin-left: 0;
 					margin-bottom: 2em;
 				}
+				
+				.spotlight .perimage {
+					-moz-flex: 0 1 auto;
+					-webkit-flex: 0 1 auto;
+					-ms-flex: 0 1 auto;
+					flex: 0 1 auto;
+					margin-left: 0;
+					margin-bottom: 2em;
+				}
 
 		}
 
@@ -3052,6 +3076,18 @@ input, select, textarea {
 				.spotlight .image img {
 					width: 0px;
 				}
+				
+				.spotlight .perimage img {
+					width: 23rem;
+				}
+
+		}
+		
+		@media screen and (max-width: 736px) {
+
+			.spotlight .perimage img {
+				width: 18rem;
+			}
 
 		}
 
@@ -3166,12 +3202,14 @@ input, select, textarea {
 	}
 		@media only screen and (max-width: 480px) {
 		#nav{
-			max-width: calc(100% - 2em);
+			max-width: 100%!important;
+			margin-left: -1em!important;
 		}
 		}
 		@media only screen and (max-width: 360px) {
 		#nav{
-			max-width: calc(100%);
+			max-width: 100%!important;
+			margin-left: 0em!important;
 		}
 		}
 
@@ -3278,7 +3316,8 @@ input, select, textarea {
 				background-color: #444444ed;
 				border-top-left-radius: 0;
 				border-top-right-radius: 0;
-				z-index: 10000;
+				z-index: 10000;max-width: 100%;
+				margin-left: -2em;
 			}
 
 				#nav + #main {
@@ -3788,10 +3827,15 @@ input, select, textarea {
 		}
 	}
 	.bimage {
-		width: 17.5rem;
+		width: 19.6rem;
 		padding: 2%;
 		border-radius: 20px;
 		margin: 0 0 2em 0;
+	}
+	@media screen and (max-width: 1280px) {
+		.bimage {
+			width: 17.5rem;
+		}
 	}
 	@media screen and (max-width: 980px) {
 		.bimage {
@@ -3819,3 +3863,4 @@ input, select, textarea {
 		.logo {
 			height: 0%;
 		}
+		
