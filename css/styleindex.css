@@ -66,7 +66,12 @@ html {
   }
 .ico-img{
   width: 35px;
+  cursor: default;
   margin-top: 2.5vh;
+  transition: transform 200ms ease-in-out;
+}
+.ico-img:hover {
+	transform: scale(1.1);
 }
 @media only screen and (max-width: 768px) {
 	.ico-img{
@@ -157,6 +162,7 @@ ul{
   border-radius: 12px; 
   font-size: 18px;
   outline: none;
+  transition: background 150ms ease-in-out;
 }
 .resume:hover {
 	background: #bfbfbf;
@@ -221,4 +227,8 @@ ul{
 	.br {
 		font-size: 7.5vw;
 	}
+}
+
+.cursornormal {
+	cursor: default;
 }
