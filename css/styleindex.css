@@ -207,7 +207,7 @@ ul{
 }
 .bottom {
   position: fixed;
-  top: 98%;
+  top: 96%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -231,4 +231,12 @@ ul{
 
 .cursornormal {
 	cursor: default;
+}
+.link {
+	 text-decoration: none;
+	 color: #777777;
+}
+.link:visited {
+	text-decoration: none;
+	color: #777777;
 }
