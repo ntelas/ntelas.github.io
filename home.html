@@ -10,25 +10,9 @@
 		<link rel="icon" type="image/x-icon" href="assets/img/fav.png" />
 		<link href="css/styles.css" rel="stylesheet" />
 		<link rel="alternate" hreflang="gr" href="https://ntelas.github.io/homegr.html" />
-		<link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css"/>
 		<!-- Cookies and Analitics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190635965-1"></script>
-		<script>
-			//Check if consent cookie is set
-			if( document.cookie.indexOf('wpcc=') == -1) {
-			  //If not, then disable tracking (default)
-			  window['ga-disable-UA-190635965-1'] = true;
-			}
-			else  {  
-			  //Enable tracking
-			  window['ga-disable-UA-190635965-1'] = false;
-			}
-		</script>
 		<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-190635965-1');</script>
-		<script src="js/cookieconsent.min.js" defer></script>
-		<script>window.addEventListener("load", function(){window.wpcc.init({"colors":{"popup":{"background":"#6c757d","text":"#eaeaea","border":"#3c3c3c"},
-			"button":{"background":"#dcdcdc","text":"#3c3c3c"}},"corners":"large","padding":"none","content":{"href":"https://www.websitepolicies.com/policies/view/9uwk5kUA","button":"Click to hide"},"position":"bottom-right"})});
-		</script>
 		<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body id="page-top">
@@ -173,6 +157,16 @@
                 </div>
             </section>
         </div>
+		<div class="hidden" id="cookie-banner">
+			<div>
+				<span>
+					We use cookies for a better experience. <a class="policy" href="https://www.websitepolicies.com/policies/view/9uwk5kUA">Read more</a>.
+				</span>
+				<span id="consent-cookies" class="consent-cookies">
+					I understand
+				</span>
+			</div>
+		</div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -10161,3 +10161,116 @@ section.resume-section .resume-section-content {
 span.hdn { unicode-bidi:bidi-override; direction:rtl }
 span.hdn.cntnt:before { content:"moc.liam" }
 span.hdn.cntnt:after { content:".saletn" }
+
+.hidden {
+    display: none!important;
+}
+
+#cookie-banner {
+    border-style: solid;
+    border-width: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5em;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    overflow: hidden;
+    position: fixed;
+    transition: opacity 1s ease;
+    z-index: 9999;
+	flex-direction: column;
+    max-width: 22em;
+    padding: 1.5em;
+	padding: 0;
+	right: 1em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+    bottom: 1em;
+	box-shadow: 0px 5px 20px #0000005c;
+    border-radius: 20px;
+	background-color: rgb(108, 117, 125);
+    border-color: rgb(60, 60, 60);
+    color: rgb(234, 234, 234);
+}
+@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
+	#cookie-banner {
+	bottom: 0!important;
+	left: 0!important;
+    margin: 0!important;
+    right: 0!important;
+	border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -5px 20px #0000005c;
+	max-width: none;
+	background-color: rgb(108, 117, 125);
+    border-color: rgb(60, 60, 60);
+    color: rgb(234, 234, 234);
+	padding: 0;
+	}
+}
+
+#cookie-banner div {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5em;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: rgb(234, 234, 234);
+	display: block;
+	transition: opacity 1s ease;
+}
+@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
+	#cookie-banner div {
+	margin-bottom: 1em;
+	display: block;
+    margin-bottom: 1em;
+	padding: 0;
+	}
+}
+
+#cookie-banner div span:first-child {
+    font-size: 16px;
+    line-height: 1.5em;
+	color: rgb(234, 234, 234);
+	display: block;
+	transition: opacity 1s ease;
+	margin: 1em;
+}
+@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
+	#cookie-banner div span:first-child {
+		
+	}
+}
+#cookie-banner div span:second-child {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: 700;
+    display: flex;
+    cursor: pointer;
+    border-radius: 9999px;
+	transition: opacity 1s ease;
+    background-color: #4299e1;
+}
+.consent-cookies {
+	line-height: 1.5em;
+	cursor: pointer;
+	display: block;
+    font-size: .9em;
+    font-weight: 700;
+    padding: .4em .8em;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-transition: background-color .2s ease;
+	color: rgb(60, 60, 60);
+    background-color: rgb(220, 220, 220);
+	outline: none;
+	transition: opacity 1s ease;
+    padding: 9px;
+}
+
+.policy {
+	color: rgb(234, 234, 234);
+	text-decoration: underline
+}
