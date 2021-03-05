@@ -3899,3 +3899,44 @@ input, select, textarea {
 			padding-bottom: 0%;
 		}
 	}
+	
+	.hidden {
+    display: none;
+}
+
+#cookie-banner {
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#cookie-banner div {
+    background-color: #4e4e4e;
+    color: #ebf8ff;
+    border-radius: 5px;
+    padding: 0.6rem 1rem;
+    line-height: 1;
+    align-items: center;
+    display: inline-flex;
+}
+
+#cookie-banner div span:first-child {
+    text-align: left;
+    margin-right: 0.5rem;
+    flex: 1 1 auto;
+}
+
+#cookie-banner div span:second-child {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    cursor: pointer;
+    border-radius: 9999px;
+    background-color: #4299e1;
+}
+.consent-cookies {
+	font-weight: 400;
+}
