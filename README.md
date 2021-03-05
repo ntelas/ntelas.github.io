@@ -1,4 +1,4 @@
-# ntelas.github.
+# ntelas.github.io
 
 This repository is made to showcase my resume with a webpage that I made.
 
