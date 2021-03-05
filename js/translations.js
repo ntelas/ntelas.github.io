@@ -9,12 +9,18 @@
  * A simple javascript library for translating web content.
  * 
  */
-
-'use strict';
-
+ 
 window.addEventListener('load', () => {
 
   // Creating a dictionary
+  
+  if (userLang == 'el') {
+  var lang = 'gr';
+  } 
+  else {
+  var lang = 'en';
+  }  
+  
   var dictionary = {
     'en': {
       'intro': '<h1>Marios Pentelas</h1><h5>Student at Computer Application Technician Department</h1>\
@@ -41,7 +47,7 @@ window.addEventListener('load', () => {
   var globalTranslate = document.getElementById('globalTranslate');
 
   // Setting the default language
-  globalTranslate.value = document.documentElement.lang || 'gr';
+  globalTranslate.value = document.documentElement.lang || lang ;
 
   // Translating the greeting input when the greet button is clicked
   globalTranslate.addEventListener('change', function () {
