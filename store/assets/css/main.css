@@ -3921,6 +3921,7 @@ input, select, textarea {
     line-height: 1;
     align-items: center;
     display: inline-flex;
+	cursor: default;
 }
 
 #cookie-banner div span:first-child {
