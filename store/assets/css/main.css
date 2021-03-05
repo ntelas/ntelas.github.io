@@ -3914,7 +3914,7 @@ input, select, textarea {
 }
 
 #cookie-banner div {
-    background-color: #4e4e4e;
+    background-color: #444444ed;
     color: #ebf8ff;
     border-radius: 5px;
     padding: 0.6rem 1rem;
