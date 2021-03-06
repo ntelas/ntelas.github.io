@@ -27,8 +27,8 @@ window.addEventListener('load', () => {
   var dictionary = {
     'en': {
       'intro': '<h1>Marios Pentelas</h1><h5>Student at Computer Application Technician Department</h1>\
-	  <p>I am student at an Institute of Vocational Training in Thessaloniki, Greece. \
-	  I am currently studying Web development (PHP), OPENGL, Blender 3D, MySQL, C, C++ and JAVA.</p>',
+	  <p>I am student at a Vocational Training Institute in Thessaloniki, Greece, \
+	  following courses such as Web development (PHP), OPENGL, Blender 3D, MySQL, C, C++ and JAVA.</p>',
     'resume': '<input class="resume" type="button" value="MY RESUME" onclick="home()">',
 	'cookies': 'We use cookies for a better experience. <a class="policy" href="https://www.websitepolicies.com/policies/view/9uwk5kUA">Read more</a>.</span>',
 	'cookiesaccept': 'I understand',
