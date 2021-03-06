@@ -14,11 +14,11 @@ window.addEventListener('load', () => {
 
   // Creating a dictionary
   
-  if (userLang == 'el') {
-  var lang = 'gr';
+  if (userLang == 'en-US') {
+  var lang = 'en';
   } 
   else {
-  var lang = 'en';
+  var lang = 'gr';
   }  
   
   var dictionary = {
