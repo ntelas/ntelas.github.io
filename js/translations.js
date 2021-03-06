@@ -16,11 +16,9 @@ window.addEventListener('load', () => {
   
   if (userLang.includes('el')) {
   var lang = 'gr';
-  alert ("The language is: " + lang);
   } 
   else {
   var lang = 'en';
-  alert ("The language is: " + lang);
   }  
   
   var dictionary = {
