@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
   if (userLang.includes('el')) {
   var lang = 'gr';
   } 
-  else if (userLang.includes('el-GR') {
+  else if (userLang.includes('el-GR')) {
   var lang = 'gr';
   }
   else {
