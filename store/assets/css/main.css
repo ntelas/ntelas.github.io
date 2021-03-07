@@ -3943,9 +3943,9 @@ input, select, textarea {
 }
 
 .closed {
-	color: white;
+	color: black;
     position: absolute;
-    background-color: #072e6b;
+    background-color: #c1c1cb;
     border-radius: 4px;
     padding: 3px;
     top: 50%;
@@ -3961,7 +3961,7 @@ input, select, textarea {
 .hours {
 	color: white;
     position: absolute;
-    background-color: #072e6b;
+    background-color: #3e6bb3;
     border-radius: 4px;
     padding: 3px;
     top: 50%;
