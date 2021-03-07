@@ -6,9 +6,80 @@
 
 (function($) {
 
+	//Open/Closed indicator
 	var	$window = $(window),
 		$body = $('body'),
 		$main = $('#main');
+
+	var openHours = [
+    {
+        openHour: -1,
+        openMinute: -1,
+        closeHour: -1,
+        closeMinute: -1,
+    },
+    {
+        openHour: 8,
+        openMinute: 0,
+        closeHour: 16,
+        closeMinute: 0,
+    },
+    {
+        openHour: 8,
+        openMinute: 0,
+        closeHour: 16,
+        closeMinute: 0,
+    },
+    {
+        openHour: 8,
+        openMinute: 0,
+        closeHour: 16,
+        closeMinute: 0,
+    },
+    {
+        openHour: 8,
+        openMinute: 0,
+        closeHour: 16,
+        closeMinute: 0,
+    },
+    {
+        openHour: 8,
+        openMinute: 0,
+        closeHour: 16,
+        closeMinute: 0,
+    },
+    {
+        openHour: 9,
+        openMinute: 0,
+        closeHour: 13,
+        closeMinute: 0,
+    }
+];
+
+	var d = new Date();
+	var dayOfWeek = d.getDay();
+	var hour = d.getHours();
+	var mins = d.getMinutes();
+	var open = true;
+	var todayHours = openHours[dayOfWeek];
+
+	if (hour >= todayHours.openHour && hour <= todayHours.closeHour) {
+		if ((hour==todayHours.openHour && mins < todayHours.openMinute) || (hour==todayHours.closeHour && mins > todayHours.closeMinute)) {
+			open = false;
+		} else {
+			open = true;
+		}
+	} else {
+		open = false;
+	}
+
+	if (open) {
+		$('.hours').show();
+		$('.closed').hide();
+	} else {
+		$('.hours').hide();
+		$('.closed').show();
+	}
 
 	// Breakpoints.
 		breakpoints({
