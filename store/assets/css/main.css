@@ -3954,7 +3954,7 @@ input, select, textarea {
 }
 @media screen and (max-width: 980px) {
 	.closed {
-		display: none;
+		display: none!important;
 	}
 }
 
@@ -3970,6 +3970,6 @@ input, select, textarea {
 }
 @media screen and (max-width: 980px) {
 	.hours {
-		display: none;
+		display: none!important;
 	}
 }
