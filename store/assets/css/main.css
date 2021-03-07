@@ -3943,33 +3943,33 @@ input, select, textarea {
 }
 
 .closed {
-	font-size: 0.4em;
-    color: white;
-    background-color: #515151;
+	color: white;
+    position: absolute;
+    background-color: #072e6b;
     border-radius: 4px;
-    width: fit-content;
-    padding: 1%;
-    margin-top: 1em;
+    padding: 3px;
+    top: 50%;
+    transform: translatey(-50%);
+    right: 25px;
 }
 @media screen and (max-width: 980px) {
 	.closed {
-		margin-left: 50%;
-		transform: translate(-50%);
+		display: none;
 	}
 }
 
 .hours {
-	font-size: 0.4em;
-    color: white;
-    background-color: #515151;
+	color: white;
+    position: absolute;
+    background-color: #072e6b;
     border-radius: 4px;
-    width: fit-content;
-    padding: 1%;
-    margin-top: 1em;
+    padding: 3px;
+    top: 50%;
+    transform: translatey(-50%);
+    right: 25px;
 }
 @media screen and (max-width: 980px) {
 	.hours {
-		margin-left: 50%;
-		transform: translate(-50%);
+		display: none;
 	}
 }

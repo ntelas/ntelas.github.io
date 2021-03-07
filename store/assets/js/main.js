@@ -54,7 +54,7 @@
         closeHour: 13,
         closeMinute: 0,
     }
-];
+	];
 
 	var d = new Date();
 	var dayOfWeek = d.getDay();
