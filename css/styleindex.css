@@ -88,7 +88,6 @@ html {
 		max-width: 70%;
 		margin-top: 0.5vh;
 	}
-  }
 }
 .box h1{
   font-size: 40px;
@@ -220,9 +219,6 @@ ul{
 		margin-top: 3vh;
 	}
 }
-.br {
-	
-}
 @media only screen and (max-width: 360px) {
 	.br {
 		font-size: 7.5vw;
@@ -317,11 +313,6 @@ ul{
 	transition: opacity 1s ease;
 	margin: 1em;
 }
-@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
-	#cookie-banner div span:first-child {
-		
-	}
-}
 #cookie-banner div span:second-child {
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
@@ -329,7 +320,7 @@ ul{
     display: flex;
     cursor: pointer;
     border-radius: 9999px;
-	transition: opacity 1s ease;
+	  transition: opacity 1s ease;
     background-color: #4299e1;
 }
 .consent-cookies {

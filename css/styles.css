@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-}
 /*!
 * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
 * Copyright 2013-2020 Start Bootstrap
@@ -10237,11 +10236,6 @@ span.hdn.cntnt:after { content:".saletn" }
 	display: block;
 	transition: opacity 1s ease;
 	margin: 1em;
-}
-@media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
-	#cookie-banner div span:first-child {
-		
-	}
 }
 #cookie-banner div span:second-child {
     font-size: 0.75rem;
