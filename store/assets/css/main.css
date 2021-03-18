@@ -3972,3 +3972,19 @@ input, select, textarea {
 		display: none!important;
 	}
 }
+
+.whatis {
+	font-size: 2em;
+	font-weight: bolder;
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.whatis {
+		font-size: 1.5em;
+	}
+}
+
+.whatisel {
+	text-align: justify;
+	padding: 2em 1em 2em 1em;
+}
