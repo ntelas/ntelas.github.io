@@ -3298,7 +3298,7 @@ input, select, textarea {
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
-			box-shadow: 4px 4px 20px 0px #0009;
+			box-shadow: 0 4px 20px 0px #0009;
 		}
 
 			#nav.alt ul li {
