@@ -4011,8 +4011,8 @@ input, select, textarea {
 .anchor:before {
 	display: block; 
 	content: " "; 
-	margin-top: -90px; 
-	height: 90px; 
+	margin-top: -50px; 
+	height: 50px; 
 	visibility: hidden; 
 	pointer-events: none;
 	}
