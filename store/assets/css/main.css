@@ -3973,6 +3973,12 @@ input, select, textarea {
     transform: translatey(-50%);
     right: 25px;
 }
+@media screen and (max-width: 1090px) {
+	.hours {
+		font-size: 12px;
+		width: 90px;
+	}
+}
 @media screen and (max-width: 980px) {
 	.hours {
 		display: none!important;
