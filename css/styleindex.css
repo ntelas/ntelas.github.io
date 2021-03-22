@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 body {
   touch-action: manipulation;
 }
@@ -26,7 +26,7 @@ html {
   text-align: center;
   margin: auto;
   color: #eaeaea;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", times new roman, sans-serif;
 }
 @media only screen and (max-width: 768px) {
 	.box{
