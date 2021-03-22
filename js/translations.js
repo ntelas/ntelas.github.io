@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
     'en': {
       'intro': '<h1>Marios Pentelas</h1><h5>Student at Computer Application Technician Department</h1>\
 	  <p>I am student at a Vocational Training Institute in Thessaloniki, Greece, \
-	  following courses such as Web development (PHP), OPENGL, Blender 3D, MySQL, C, C++ and JAVA.</p>',
+	  following courses such as web development (PHP, WordPress), MySQL, Adobe Premiere & Animate, Blender, OpenGL, C, C++ and JAVA.</p>',
     'resume': '<input class="resume" type="button" value="MY RESUME" onclick="home()">',
 	'cookies': 'We use cookies for a better experience. <a class="policy" href="https://www.websitepolicies.com/policies/view/9uwk5kUA">Read more</a>.</span>',
 	'cookiesaccept': 'I understand',
@@ -36,7 +36,7 @@ window.addEventListener('load', () => {
     'gr': {
       'intro': '<h1>Μάριος Πεντέλας</h1><h5>Φοιτητής Τεχνικός Εφαρμογών Πληροφορικής Δ\' Εξάμηνο</h1>\
 	  <p>Είμαι μαθητής σε Ινστιτούτο Επαγγελματικής Κατάρτησης στην Θεσσαλονίκη.\
-	  Αυτή την στιγμή σπουδάζω Κατασκευή ιστοσελιδών (PHP), OPENGL, Blender 3D, MySQL, C, C++ και JAVA.</p>',
+	  Αυτή την στιγμή σπουδάζω κατασκευή ιστοσελιδών (PHP, WordPress), MySQL, Adobe Premiere & Animate, Blender, OpenGL, C, C++ και JAVA.</p>',
     'resume': '<input class="resume br" type="button" value="ΤΟ ΒΙΟΓΡΑΦΙΚΟ ΜΟΥ" onclick="homegr()">',
 	'cookies': 'Χρησιμοποιούμε cookies για μια καλύτερη εμπειρία. <a class="policy" href="https://www.websitepolicies.com/policies/view/9uwk5kUA">Δείτε περισσότερα</a>.</span>',
 	'cookiesaccept': 'Το κατάλαβα',
