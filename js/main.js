@@ -39,3 +39,20 @@ consentCta.addEventListener('click', () => {
     cookieBanner.classList.add('hidden');
     setCookie('cookies-consent', 1, 365);
 });
+
+window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() { 
+        window.location.href = href
+    }, 300)
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
+
+window.addEventListener("beforeunload", function(event) {
+	document.querySelector('body').style.opacity = 0
+});
+
+window.onunload = function(){}; 
