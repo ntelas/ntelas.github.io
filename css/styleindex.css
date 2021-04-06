@@ -264,9 +264,9 @@ ul{
 @media only screen and (max-width: 768px) {
 	.footer {
 		font-size: 12px;
-		background: #6c757d;
+/*		background: #6c757d;*/
 		padding: 3px;
-		color: white;
+/*		color: white;*/
 	}
   }
 .centered {
@@ -291,11 +291,10 @@ ul{
 }
 @media only screen and (max-width: 960px) {
 	.bottom {
-/*		position: unset!important;
+		position: unset!important;
 		left: unset!important;
-		transform: unset!important;*/
-		top: 95%;
-		margin-top: 3vh;
+		transform: unset!important;
+		margin-top: 20px;
 	}
 }
 @media only screen and (max-width: 360px) {
@@ -313,7 +312,7 @@ ul{
 }
 @media only screen and (max-width: 768px) {
 	.link {
-		color: white;
+/*		color: white;*/
 	}
 }
 .link:visited {
@@ -322,7 +321,7 @@ ul{
 }
 
 .hidden {
-    display: none!important;
+    display: none!important;	
 }
 
 #cookie-banner {
