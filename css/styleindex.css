@@ -28,15 +28,15 @@ html {
   padding: 0 5px;
   display: flex;
   height: 40px;
-  width: 450px;
+  width: 460px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  animation: opacity .95s cubic-bezier(1,1,1,1)
+  animation: popacity 1.4s cubic-bezier(1,1,1,1)
 }
-@keyframes opacity {
+@keyframes popacity {
   99% { opacity: 1; }
   100% { opacity: 0; }
 }
@@ -46,12 +46,12 @@ html {
 	}
   }
 .progress-value {
-  animation: load 0.9s normal forwards;
+  animation: load 1.4s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #6c757d;
   height: 30px;
-  width: 0;
+  width: 0px;
 }
 
 @keyframes load {
@@ -61,7 +61,7 @@ html {
 .box{
   width: 400px;
   background: #6c757d;
-  box-shadow: 7px 7px 20px #0000005c;
+  box-shadow: 4px 4px 20px 3px #0000005c;
   padding: 30px;
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
@@ -70,21 +70,18 @@ html {
   margin: auto;
   color: #eaeaea;
   font-family: "Source Sans Pro", times new roman, sans-serif;
-  -webkit-animation: height 1.9s ease-in-out;
+  -webkit-animation: bopacity 1.8s ease-in-out;
   overflow: hidden;
   opacity: 1;
 }
-@keyframes height{
+@keyframes bopacity{
   0% {
-   max-height: 0;
    opacity: 0;
   }
-  40% {
-   max-height: 0;
+  75% {
    opacity: 0;
   }
   100% {
-    max-height: 650px;
 	opacity: 1;
   }
 }
@@ -94,20 +91,7 @@ html {
 		margin-top: 3vh;
 	}
   }
- .contentreveal {
-   -webkit-animation: opacity 1.9s ease-in-out;
-}
-@keyframes opacity{
-  0% {
-   opacity: 0;
-  }
-  40% {
-   opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .box-img{
   border-radius: 50%;
   width: 130px;
@@ -176,7 +160,7 @@ html {
   }
 @media only screen and (min-height: 1000px) {
 	.box h1{
-		font-size: 27px;
+		font-size: 36px;
 	}
 }
 .box h5{
@@ -260,6 +244,13 @@ ul{
   font-size: 16px;
   text-align: center;
   font-family: "Helvetica";
+  opacity: 1;
+  -webkit-animation: fopacity 1.8s ease-in-out;
+}
+@keyframes fopacity {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
 }
 @media only screen and (max-width: 768px) {
 	.footer {
