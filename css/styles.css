@@ -10276,3 +10276,7 @@ span.hdn.cntnt:after { content:".saletn" }
 	color: white!important; 
 	font-size: 0.95rem!important;
 }
+
+.bulletpoint {
+  padding-left: 1rem;
+}
