@@ -3924,11 +3924,11 @@ input, select, textarea {
 }
 
 #cookie-banner div {
-    background-color: #444444ed;
+    background-color: #444444a8;
     color: #ebf8ff;
     border-radius: 5px;
-    padding: 0.6rem 1rem;
-    line-height: 1;
+    padding: 0.3rem 0.3rem;
+    line-height: 0.9;
     align-items: center;
     display: inline-flex;
 	cursor: default;
