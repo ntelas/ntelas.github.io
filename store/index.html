@@ -23,8 +23,24 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72220117-2"></script>
-		<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-72220117-2');
+		<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); 					gtag('config', 'UA-72220117-2'); gtag('config', 'AW-966944535');
 		</script>
+		<!-- Event snippet for Primary call button on Website, through Smart Campaign conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+		function gtag_report_conversion(url) {
+  		var callback = function () {
+    	if (typeof(url) != 'undefined') {
+      	window.location = url;
+	    }
+	  };
+	  gtag('event', 'conversion', {
+      'send_to': 'AW-966944535/3iLxCILHrJABEJfOic0D',
+      'event_callback': callback
+	  });
+  	return false;
+	}
+	</script>
 		<meta name="google-site-verification" content="g9I6ihEr3vMgShp1fw3GFpVPRTfNT8l29W6J4tyX7f4" />
 	</head>
 	<body class="is-preload" id="pagetop">
@@ -55,9 +71,12 @@
 							</header>
 							<p>Το κατάστημά μας ιδρύθηκε και λειτουργεί από το 1985. Καθημερινά, σας εξυπηρετούμε ανάλογα
 							με τις ανάγκες σας και βρίσκουμε τις καλύτερες και πιο οικονομικές λύσεις για εσάς. Παραδίδουμε σε Αθήνα, Θεσσαλονίκη, πανελλαδικά.</p>
-							<form action="tel:302310550959">
+							<form onclick="return gtag_report_conversion('tel:302310550959')">
 								<input type="submit" value="2310.550959" />
 							</form>
+							<!--form action="tel:302310550959">
+								<input type="submit" value="2310.550959" />
+							</form>-->
 						</div>
 						<span class="perimage"><img src="assets/img/front.webp" alt="Storefront, μαγαζί" /></span>
 					</div>
