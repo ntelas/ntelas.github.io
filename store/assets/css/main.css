@@ -3384,6 +3384,7 @@ input, select, textarea {
 			background-color: #005aff;
 			color: white !important;
 			font-family: arial;
+			font-weight: bold;
 			text-shadow: 1px 1px 2px black !important;
 			font-size: 1.15em !important;
 			padding: 0 5em !important;
