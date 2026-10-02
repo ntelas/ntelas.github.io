@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#070b14">
 <title>FieldShift</title>
 <link rel="stylesheet" href="game11.css?v=11">
+<link rel="stylesheet" href="patch12.css?v=12">
 </head>
 <body>
 <section id="home" class="screen show">
@@ -20,7 +21,7 @@
     <button id="dailyBtn" class="dailybtn tap">Daily Field <span id="dailySubtitle">NEW CHALLENGE TODAY</span></button>
     <button id="tutorialBtn" class="microbtn tap">How to Play</button>
     <div class="home-grid"><button id="challengesBtn" class="softbtn tap">Goals</button><button id="statsBtn" class="softbtn tap">Stats</button><button id="settingsBtn" class="softbtn tap">Settings</button></div>
-    <div class="version">FIELDSHIFT WEB • POLISHED BUILD 11</div>
+    <div class="version">FIELDSHIFT WEB • POLISHED BUILD 12</div>
   </div>
 </section>
 
@@ -35,13 +36,15 @@
 
 <div id="pauseModal" class="modal"><div class="card"><h2>Paused</h2><p class="sub">Your magnetic field is frozen.</p><button id="resumeBtn" class="modalbtn primary tap">Continue</button><button id="restartBtn" class="modalbtn tap">Restart Run</button><button id="goalsInRunBtn" class="modalbtn tap">Run Goals</button><button id="homeBtn" class="modalbtn tap">Home</button></div></div>
 <div id="resultModal" class="modal"><div class="card"><div class="eyebrow">FIELD JAMMED</div><div id="resultScore" class="resultscore">0</div><div id="newBest" class="newbest">NEW PERSONAL BEST</div><div class="resultrow"><div class="resultstat"><strong id="resultTurns">0</strong>SWIPES</div><div class="resultstat"><strong id="resultCombo">0</strong>BEST COMBO</div><div class="resultstat"><strong id="resultClears">0</strong>CLEARED</div></div><button id="rewindBtn" class="modalbtn accent tap">↶ Rewind 3 Moves</button><button id="againBtn" class="modalbtn primary tap">Play Again</button><button id="shareBtn" class="modalbtn sharebtn tap">Share Score</button><button id="resultHomeBtn" class="modalbtn tap">Home</button></div></div>
-<div id="goalsModal" class="modal"><div class="card"><h2 id="goalsTitle">Goals</h2><p id="goalsSub" class="sub">Three clean goals. No currencies, no chores.</p><div id="challengeList" class="challenge-list"></div><button id="closeGoalsBtn" class="modalbtn primary tap">Done</button></div></div>
-<div id="statsModal" class="modal"><div class="card"><h2>Statistics</h2><p class="sub">Everything stays on this device.</p><div id="statsGrid" class="stats-grid"></div><h2 style="font-size:19px;margin-top:22px">Achievements</h2><div id="achievementList" class="achievement-list"></div><button id="closeStatsBtn" class="modalbtn primary tap">Done</button></div></div>
-<div id="settingsModal" class="modal"><div class="card"><h2>Settings</h2><p class="sub">Tune the physical feel of the game.</p><div class="settings-list"><div class="setting"><span>Sound effects</span><button id="soundToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Ambient sound</span><button id="musicToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Motion effects</span><button id="motionToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Haptics where supported</span><button id="hapticToggle" class="toggle on tap"><i></i></button></div></div><div style="text-align:left;margin-top:18px;font-size:10px;color:#78869d;font-weight:850">CLASSIC DIFFICULTY</div><div class="difficulty"><button data-diff="normal" class="selected tap">Normal</button><button data-diff="hard" class="tap">Hard</button><button data-diff="expert" class="tap">Expert</button></div><button id="settingsTutorialBtn" class="modalbtn tap">How to Play</button><button id="closeSettingsBtn" class="modalbtn primary tap">Done</button></div></div>
+<div id="goalsModal" class="modal"><div class="card"><h2 id="goalsTitle">Goals</h2><p id="goalsSub" class="sub">Three clean goals. No currencies, no chores.</p><div id="challengeList" class="challenge-list"></div><button id="closeGoalsBtn" class="modalbtn primary tap">Continue</button></div></div>
+<div id="statsModal" class="modal"><div class="card"><h2>Statistics</h2><p class="sub">Everything stays on this device.</p><div id="statsGrid" class="stats-grid"></div><h2 style="font-size:19px;margin-top:22px">Achievements</h2><div id="achievementList" class="achievement-list"></div><button id="closeStatsBtn" class="modalbtn primary tap">Continue</button></div></div>
+<div id="settingsModal" class="modal"><div class="card"><h2>Settings</h2><p class="sub">Tune the physical feel of the game.</p><div class="settings-list"><div class="setting"><span>Sound effects</span><button id="soundToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Ambient sound</span><button id="musicToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Motion effects</span><button id="motionToggle" class="toggle on tap"><i></i></button></div><div class="setting"><span>Haptics where supported</span><button id="hapticToggle" class="toggle on tap"><i></i></button></div></div><div style="text-align:left;margin-top:18px;font-size:10px;color:#78869d;font-weight:850">CLASSIC DIFFICULTY</div><div class="difficulty"><button data-diff="normal" class="selected tap">Normal</button><button data-diff="hard" class="tap">Hard</button><button data-diff="expert" class="tap">Expert</button></div><button id="settingsTutorialBtn" class="modalbtn tap">How to Play</button><button id="closeSettingsBtn" class="modalbtn primary tap">Continue</button></div></div>
 <div id="tutorialModal" class="modal"><div class="card"><div class="tutorial-hero"><i class="tutorial-ball a"></i><i class="tutorial-ball b"></i><i class="tutorial-ball c"></i></div><h2>How to Play</h2><p class="sub">Three rules. You will understand FieldShift in seconds.</p><div class="tutorial-list"><div class="tutorial-step"><i>1</i><div><b>Swipe in any direction</b><span>Only the glowing active color moves. Every other ball becomes an obstacle.</span></div></div><div class="tutorial-step"><i>2</i><div><b>Connect 3 or more</b><span>Touch matching balls edge-to-edge to clear them. Bigger and consecutive clears score more.</span></div></div><div class="tutorial-step"><i>3</i><div><b>Survive the pressure</b><span>Moves that do not clear add balls. Use the NEXT color to plan ahead and keep the board from jamming.</span></div></div></div><button id="tutorialActionBtn" class="modalbtn primary tap">Start Playing</button></div></div>
 <div id="milestone" class="milestone"><small>FIELD PHASE</small><strong id="milestoneText">CHARGED</strong></div>
 <div id="unlock" class="unlock"><i>✦</i><div><b id="unlockTitle">Achievement Unlocked</b><span id="unlockText">First clear</span></div></div>
 
+<script src="pre12.js?v=12"></script>
 <script src="game11.js?v=11"></script>
+<script src="post12.js?v=12"></script>
 </body>
 </html>
