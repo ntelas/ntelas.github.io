@@ -6,9 +6,13 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#070b14">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>FieldShift</title>
 <link rel="stylesheet" href="game11.css?v=11">
 <link rel="stylesheet" href="patch12.css?v=12">
+<script>document.write('<link rel="stylesheet" href="live.css?t='+Date.now()+'">')</script>
 </head>
 <body>
 <section id="home" class="screen show">
@@ -21,17 +25,31 @@
     <button id="dailyBtn" class="dailybtn tap">Daily Field <span id="dailySubtitle">NEW CHALLENGE TODAY</span></button>
     <button id="tutorialBtn" class="microbtn tap">How to Play</button>
     <div class="home-grid"><button id="challengesBtn" class="softbtn tap">Goals</button><button id="statsBtn" class="softbtn tap">Stats</button><button id="settingsBtn" class="softbtn tap">Settings</button></div>
-    <div class="version">FIELDSHIFT WEB • POLISHED BUILD 12</div>
+    <div class="version">FIELDSHIFT WEB • LIVE BUILD 13</div>
   </div>
 </section>
 
 <section id="game" class="screen">
-  <div class="game-top"><button id="pauseBtn" class="circlebtn tap">Ⅱ</button><div class="scorebox"><small>SCORE</small><strong id="score">0</strong></div><div class="bestmini">BEST<strong id="bestMini">0</strong></div></div>
-  <div id="fieldCard" class="field-card"><div class="field-left"><span id="fieldOrb" class="field-orb"></span><div class="field-copy"><small>MAGNETIC FIELD</small><strong><span id="fieldName">BLUE</span> MOVES</strong></div></div><div class="field-right"><div class="nextline">NEXT <span id="nextDot" class="nextdot"></span></div><div id="phaseLabel" class="phase">STABLE FIELD</div></div></div>
-  <div class="pressure-row"><div class="pressure-left">FIELD PRESSURE</div><div id="pressurePips" class="pressure-pips"><i></i><i></i><i></i></div><div id="runGoal" class="run-goal">GOAL <strong>0/15</strong></div></div>
+  <div class="game-top">
+    <button id="pauseBtn" class="circlebtn tap">Ⅱ</button>
+    <div class="hud-stat scorebox"><small>SCORE</small><strong id="score">0</strong></div>
+    <div class="hud-stat bestmini"><small>BEST</small><strong id="bestMini">0</strong></div>
+    <div class="hud-stat goal"><small>CLEARED</small><strong id="topGoal">0/15</strong></div>
+  </div>
+
+  <div id="fieldCard" class="field-card">
+    <div class="field-left"><span id="fieldOrb" class="field-orb"></span><div class="field-copy"><small>MAGNETIC FIELD</small><strong><span id="fieldName">BLUE</span> MOVES</strong></div></div>
+    <div class="field-right"><div class="nextline">NEXT <span id="nextDot" class="nextdot"></span></div><div id="phaseLabel" class="phase">STABLE FIELD</div></div>
+  </div>
+
   <div id="gestureArea" class="board-wrap"><div id="board" class="board"><div id="grid" class="grid"></div><div id="sweep" class="sweep"></div><div id="flash" class="flash"></div><div id="toast" class="toast"></div></div></div>
-  <div id="coach" class="coach"><b>Swipe</b> to pull the glowing color. Connect 3+.</div>
-  <div class="bottomline"><span>FAST SWIPES</span><span>•</span><span>CHAIN CLEARS</span><span>•</span><span>SURVIVE THE PRESSURE</span></div>
+
+  <div class="run-dock">
+    <div class="pressure-row"><div class="pressure-left">FIELD PRESSURE</div><div id="pressurePips" class="pressure-pips"><i></i><i></i><i></i></div><div id="runGoal" class="run-goal">GOAL <strong>0/15</strong></div></div>
+    <div id="coach" class="coach"><b>Swipe</b> to pull the glowing color. Connect 3+.</div>
+    <div class="dock-meta"><span id="modeBadge" class="dock-mode">CLASSIC</span><span>NO CLEAR = NEW BALL</span></div>
+    <div class="bottomline"><span>PLAN THE NEXT COLOR</span><span>•</span><span>CHAIN CLEARS</span><span>•</span><span>SURVIVE</span></div>
+  </div>
 </section>
 
 <div id="pauseModal" class="modal"><div class="card"><h2>Paused</h2><p class="sub">Your magnetic field is frozen.</p><button id="resumeBtn" class="modalbtn primary tap">Continue</button><button id="restartBtn" class="modalbtn tap">Restart Run</button><button id="goalsInRunBtn" class="modalbtn tap">Run Goals</button><button id="homeBtn" class="modalbtn tap">Home</button></div></div>
@@ -45,6 +63,6 @@
 
 <script src="pre12.js?v=12"></script>
 <script src="game11.js?v=11"></script>
-<script src="post12.js?v=12"></script>
+<script>document.write('<script src="live.js?t='+Date.now()+'"><\/script>')</script>
 </body>
 </html>
